@@ -1,0 +1,26 @@
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(0, 123, 255);
+}
+
+@media(max-width: 920px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    h1 {
+        font-size: 16px;
+    }
+}
