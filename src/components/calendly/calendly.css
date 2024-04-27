@@ -1,12 +1,17 @@
 .main {
     width: 100%;
     height: auto;
+}
+
+.containerTwo {
+    width: 100vw;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1 {
+.containerTwo h1 {
     font-family: "Quicksand", sans-serif;
     font-size: 25px;
     font-weight: 500;
@@ -14,13 +19,13 @@ h1 {
 }
 
 @media(max-width: 920px) {
-    h1 {
+    .containerTwo h1 {
         font-size: 20px;
     }
 }
 
 @media(max-width: 400px) {
-    h1 {
+    .containerTwo h1 {
         font-size: 16px;
     }
 }
