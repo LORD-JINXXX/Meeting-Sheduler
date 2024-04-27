@@ -11,8 +11,12 @@ const Calendly = () => {
             <div className="main">
                 {
                     isAuthenticated ?
-                    <InlineWidget url="https://calendly.com/mustafamdsajid1" />
-                    : <h1>Please login to schedule your meeting </h1>
+                        <div className="containerOne">
+                            <InlineWidget url="https://calendly.com/mustafamdsajid1" />
+                        </div>
+                        : <div className="containerTwo">
+                            <h1>Please login to schedule your meeting </h1>
+                        </div>
                 }
             </div>
         </>
