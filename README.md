@@ -13,8 +13,8 @@
 
 ## Installation
 
-### Clone this repository: git clone https://github.com/yourusername/meeting-scheduler-app.git
-### Navigate to the project directory: cd meeting-scheduler-app
+### Clone this repository: git clone https://github.com/LORD-JINXXX/Meeting-Sheduler.git
+### Navigate to the project directory: cd meeting-scheduler
 ### Install dependencies: npm install
 
 ## Configuration
